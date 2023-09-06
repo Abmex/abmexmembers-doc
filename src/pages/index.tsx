@@ -28,14 +28,14 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  
+  if (window.location.pathname === "/abmexmembers-doc/") {
+      window.location.pathname = '/abmexmembers-doc/docs/intro';
+  }
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }
