@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'abmexmembers',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/abmexmembers2.svg',
 
   // Set the production url of your site here
   url: 'https://Abmex.github.io/',
