@@ -28,6 +28,13 @@ const sidebars = {
           type: "doc",
         },
       ],
+      "Configuração da Área de Membros": [
+        {
+          id: "member-area/config",
+          label: "Configuração Inicial",
+          type: "doc"
+        }
+      ]
     }
   ],
 };
