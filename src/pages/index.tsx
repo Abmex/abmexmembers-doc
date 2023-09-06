@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -28,10 +28,11 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
-  
-  if (window.location.pathname === "/abmexmembers-doc/") {
-      window.location.pathname = '/abmexmembers-doc/docs/intro';
-  }
+  useEffect(() => {
+    if (window.location.pathname === "/abmexmembers-doc/") {
+        window.location.pathname = '/abmexmembers-doc/docs/intro';
+    }
+  }, [])
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
