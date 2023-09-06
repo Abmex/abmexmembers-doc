@@ -34,6 +34,13 @@ const sidebars = {
           label: "Configuração Inicial",
           type: "doc"
         }
+      ],
+      "Integrações": [
+        {
+          id: "integrations/home",
+          label: "Introdução",
+          type: "doc"
+        }
       ]
     }
   ],
