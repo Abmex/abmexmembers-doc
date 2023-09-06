@@ -9,7 +9,7 @@ Esse guia vai explicar como integrar a sua plataforma com a abmexmembers e como 
 
 ### Crie uma integração
 
-`POST /api/integrations - FORMATO DA REQUISIÇÃO`
+`POST /member-area-dev.herokuapp.com/integrations - FORMATO DA REQUISIÇÃO`
 
 **Via Body na requisição:**
 

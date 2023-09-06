@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Token para autenticação
 
-`POST /api/memberArea/auth/login - FORMATO DA REQUISIÇÃO`
+`POST /member-area-dev.herokuapp.com/memberArea/auth/login - FORMATO DA REQUISIÇÃO`
 
 Esta rota retorna um token que permite um usuário acessar os demais endpoints da Área de Membros.
 

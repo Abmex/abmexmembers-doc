@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ### Criação de uma área de membros
 
-`POST /api/memberArea - FORMATO DA REQUISIÇÃO`
+`POST /member-area-dev.herokuapp.com/memberArea - FORMATO DA REQUISIÇÃO`
 
 > Token de autenticação deve ser usado para criar área de membros. . → [Token de autenticação](/abmexmembers-doc/docs/token-acess/token-auth)
 
