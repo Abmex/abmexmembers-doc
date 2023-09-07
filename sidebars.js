@@ -40,6 +40,11 @@ const sidebars = {
           id: "integrations/home",
           label: "Introdução",
           type: "doc"
+        },
+        {
+          id: "integrations/abmex",
+          label: "Abmex",
+          type: "doc"
         }
       ]
     }

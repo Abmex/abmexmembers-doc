@@ -7,7 +7,10 @@ sidebar_position: 1
 
 `POST /member-area-dev.herokuapp.com/memberArea - FORMATO DA REQUISIÇÃO`
 
-> Token de autenticação deve ser usado para criar área de membros. . → [Token de autenticação](/abmexmembers-doc/docs/token-acess/token-auth)
+Esta rota enviará suas credenciais de acesso para o seu e-mail, o qual permitirá que você faça requisições às outras rotas do abmexmembers.
+
+
+> Token de integração deve ser usado para criar área de membros. → [Token de integração](/abmexmembers-doc/docs/token-acess/token-integration)
 
 
 ```ts

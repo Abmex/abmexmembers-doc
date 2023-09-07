@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Introdução
 
-Esse guia vai explicar como integrar a sua plataforma com a abmexmembers e como irá funcionar o uso abmexmembers.
+Esse guia vai explicar como integrar a sua plataforma com a abmexmembers.
 
 ### Crie uma integração
 
@@ -25,26 +25,6 @@ Esse guia vai explicar como integrar a sua plataforma com a abmexmembers e como 
   "owner_id_platform": number,
 }
 ```
-
-### Vincule produtos
-
-**Via header na requisição:**
-
-> `integration-name` → nome da integração integrada que deseja vincular o produto;
-
-**Via Body na requisição:**
-
-> Esta rota faz uma requisição na plataforma integrada e busca as informações do produto a ser vinculado.  
-> 
-> `reference` → id do produto na plataforma integrada;
-
-```ts
-{
-  "product_id": number,
-}
-```
-
-**OBS:** Ao vincular o produto, automaticamente vincula todos os planos desse produto na abmexmembers.
 
 
 

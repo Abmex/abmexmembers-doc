@@ -11,7 +11,7 @@ Esta rota retorna um token que permite um usuário acessar os endpoints de integ
 ```ts
 {
   "email": "string",
-  "password": "string"
+  "name": "string"
 }
 ```
 
